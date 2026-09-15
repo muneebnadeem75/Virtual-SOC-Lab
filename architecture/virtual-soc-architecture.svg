@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="#ffffff"/>
+<text x="550" y="50" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Virtual SOC Lab Architecture</text>
+<text x="550" y="82" text-anchor="middle" font-family="Arial" font-size="15">Isolated VirtualBox security monitoring environment</text>
+<rect x="365" y="120" width="370" height="125" rx="16" fill="#f3f6f8" stroke="#222" stroke-width="2"/>
+<text x="550" y="155" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold">WAZUH MANAGER</text>
+<text x="550" y="184" text-anchor="middle" font-family="Arial" font-size="16">SIEM • Indexer • Dashboard</text>
+<text x="550" y="211" text-anchor="middle" font-family="Arial" font-size="14">Central log collection &amp; alert investigation</text>
+<rect x="330" y="320" width="440" height="155" rx="16" fill="#f3f6f8" stroke="#222" stroke-width="2"/>
+<text x="550" y="355" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold">UBUNTU SENSOR</text>
+<text x="550" y="383" text-anchor="middle" font-family="Arial" font-size="15">Wazuh Agent • Suricata IDS</text>
+<text x="550" y="408" text-anchor="middle" font-family="Arial" font-size="15">Apache • DVWA • SSH • FIM</text>
+<text x="550" y="438" text-anchor="middle" font-family="Arial" font-size="14">System, authentication, web &amp; IDS telemetry</text>
+<rect x="55" y="330" width="215" height="120" rx="16" fill="#f3f6f8" stroke="#222" stroke-width="2"/>
+<text x="162" y="365" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold">KALI ATTACKER</text>
+<text x="162" y="394" text-anchor="middle" font-family="Arial" font-size="14">Controlled reconnaissance</text>
+<text x="162" y="417" text-anchor="middle" font-family="Arial" font-size="14">SSH password testing</text>
+<rect x="830" y="330" width="215" height="120" rx="16" fill="#f3f6f8" stroke="#222" stroke-width="2"/>
+<text x="937" y="365" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold">WEB TESTING</text>
+<text x="937" y="394" text-anchor="middle" font-family="Arial" font-size="14">Apache / DVWA</text>
+<text x="937" y="417" text-anchor="middle" font-family="Arial" font-size="14">Controlled SQL injection</text>
+<line x1="550" y1="245" x2="550" y2="320" stroke="#222" stroke-width="3" marker-end="url(#a)"/>
+<line x1="270" y1="390" x2="330" y2="390" stroke="#222" stroke-width="3" marker-end="url(#a)"/>
+<line x1="830" y1="390" x2="770" y2="390" stroke="#222" stroke-width="3" marker-end="url(#a)"/>
+<text x="300" y="375" text-anchor="middle" font-family="Arial" font-size="13">Lab traffic</text>
+<text x="800" y="375" text-anchor="middle" font-family="Arial" font-size="13">HTTP activity</text>
+<rect x="270" y="520" width="560" height="58" rx="12" fill="#ffffff" stroke="#777" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="550" y="545" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold">Host-Only Network</text>
+<text x="550" y="565" text-anchor="middle" font-family="Arial" font-size="13">Attack and monitoring traffic kept inside the isolated lab network</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker></defs>
+</svg>
